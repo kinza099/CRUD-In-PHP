@@ -30,8 +30,8 @@ Ensure you have the following installed on your system:
 
 1. **Clone or Download the Repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/kinza099/CRUD-In-PHP.git
+   cd CRUD-In-PHP
    ```
 
 2. **Start the Server:**
@@ -89,15 +89,15 @@ Ensure you have the following installed on your system:
 
 ```
 project-folder/
-├── connection.php     
-├── index.php           # Displays records (Read ).
-├── AddUser.php          # Adds new records (Create operation).
-├── edit.php
-├── update.php         
+├── connection.php      # Handles database connection.
+├── index.php           # Displays records (Read operation).
+├── AddUser.php         # Adds new records (Create operation).
+├── edit.php            # Displays the edit form for a record.
+├── update.php          # Updates records (Update operation).
 ├── delete.php          # Deletes records (Delete operation).
 ├── layout.php          # Common layout file for header and footer.
-├── About_us.php          # Deletes records (Delete operation).
-├── Contact_us.php
+├── About.php           # Displays the About Us page.
+├── Contact.php         # Displays the Contact Us page.
 ```
 
 ---
